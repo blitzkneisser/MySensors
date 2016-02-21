@@ -50,7 +50,7 @@ IRdecodeHash Hash_Decoder;
 
 #define MYCODES_NUM 6
 #define MYCODES_LENGTH 24
-const unsigned long myHashes[MYCODES_LENGTH] = {
+const unsigned long myHashes[MYCODES_NUM] = {
   0x31538D76,  // Licht an
   0x6DEB31B6,  // Licht aus
   0x8A8F5F86,  // Stufe0
